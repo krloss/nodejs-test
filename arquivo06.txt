@@ -1,0 +1,28 @@
+# ls | sed 's/.*/echo &; sleep 5;/e' >> arquivo06.txt
+/*
+var fs = require('fs');
+var rs = fs.createReadStream('./demofile.txt');
+rs.on('open', function () {
+  console.log('The file is open');
+});
+*/
+arquivo01.html
+arquivo02.txt
+arquivo04.txt
+arquivo05.html
+exemplo01.js
+exemplo02.js
+exemplo03.js
+exemplo04.js
+exemplo05.js
+exemplo06.js
+modulo01.js
+node_modules
+/*
+var events = require('events');
+var emissor = new events.EventEmitter();
+var acao = function () { console.log('Acionado!'); }
+
+emissor.on('ouvinte',acao);
+emissor.emit('ouvinte');
+*/
