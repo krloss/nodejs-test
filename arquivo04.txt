@@ -1,0 +1,24 @@
+/*
+var fs = require('fs');
+
+fs.open('mynewfile2.txt', 'w', function (err, file) {
+  if (err) throw err;
+  console.log('Saved!');
+});
+*/
+/*
+var fs = require('fs');
+
+fs.unlink('mynewfile3.txt', function (err) {
+  if (err) throw err;
+  console.log('File deleted!');
+}); 
+*/
+/*
+var fs = require('fs');
+
+fs.rename('mynewfile2.txt', 'mynewfile3.txt', function (err) {
+  if (err) throw err;
+  console.log('File Renamed!');
+});
+*/
